@@ -1,0 +1,70 @@
+# MacOS
+.DS_Store
+
+# IDE
+.vscode
+.idea/
+
+# Go prof output
+*.prof
+
+# Test files
+*.rlp
+
+# Go test output
+*/*.test
+*/*.out
+fuzzing/
+
+# Build output
+build
+dist
+
+# Dependencies
+vendor
+glide.lock
+
+# patches and diff files
+*.patch
+*.diff
+
+# gomobile compilation output
+*.aar
+*.jar
+
+# archives
+*.tar.gz
+*.tgz
+*.zip
+
+# scripts
+scripts/genesis.g
+scripts/make.sh
+scripts/pass.txt
+scripts/logs
+scripts/datadir
+scripts/validators.txt
+
+# opera project specific
+scripts/certs
+scripts/nodes
+scripts/peers.json
+scripts/docker/upx
+nodes
+peers.json
+certs
+lachesis_*
+!*.go
+*.log
+*.graph
+*.gv
+*.finality
+testnet.g
+
+# Backup copies
+*~
+*.bak
+
+.#*
+
+**/coverage.txt
